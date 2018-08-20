@@ -1,0 +1,11 @@
+package com.westos.web01.dao;
+
+import com.westos.web01.bean.Haohan;
+
+/**
+ * Created by Administrator on 2018/8/19.
+ */
+public interface HaohanDao {
+    //根据好汉序号获取好汉信息
+    Haohan getHaohanByxuhao(Integer xuhao);
+}
